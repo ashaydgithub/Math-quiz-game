@@ -1,0 +1,79 @@
+*{
+  margin: 0; 
+  padding: 0;
+
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(141, 115, 202);
+}
+section h1{
+  padding-bottom: 30px;
+  font-size: 2rem;
+  text-shadow: 1px 2px 2px white;
+}
+
+section h1 span{
+  color: #fb6886;
+}
+
+.centerdiv{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(151, 230, 24);
+  box-shadow: 1px solid #666;
+}
+
+.centerdiv:hover{
+  background-color: aqua;
+}
+.insertBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#v1, #v2{
+  text-align: center;
+  padding: 20px 30px;
+  width: 35px;
+  font-size: 30px;
+  box-shadow: 1px 1px 0px #999,
+              2px 2px 0px#999,
+              3px 3px 0px #999,
+              4px 4px 0px #999;
+   border-bottom-left-radius: 12px ;
+   border-bottom-right-radius: 12px ;  
+   border-top-left-radius: 12px ; 
+   border-top-right-radius: 12px ;           
+}
+
+.box1 p{
+      font-size: 60px;
+      margin: 1px 10px;
+}
+.middleBox #answer{
+  margin: 30px 0;
+  padding: 5px 0;
+  font-size: 30px;
+  text-align: center;
+  width: 180px;
+  background-color: white;
+}
+.sentBox button{
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  background-color: rgb(1, 121, 81);
+  border-radius: 2px;
+}
